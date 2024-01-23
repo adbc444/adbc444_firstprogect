@@ -1,0 +1,72 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Playfair Display', serif;
+	scroll-behavior: smooth;
+}
+nav{
+	display: flex;
+	justify-content: center;
+	column-gap: 99px;
+	margin-top: 71px;
+
+}
+nav a{
+	color: #7D7D7D;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+nav a:hover{
+	color: #03A9F4;
+	}
+section{
+	display: flex;
+	justify-content: center;
+	width: 906px;
+	flex-wrap: wrap;
+	column-gap: 65px;
+	row-gap: 130px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 92px;
+}
+.card{
+	display: flex;
+	flex-direction: column;
+	row-gap: 62px;
+	width: 420px;
+}
+.card img{
+	width: 420px;
+	height: 280px;
+}
+.content_text .text-style{
+	color: #B4AD9E;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-family: 'Ubuntu', sans-serif;
+}
+.content_text h2{
+	color: #626262;
+	font-size: 30px;
+	margin-top: 32px;
+	font-weight: 400;
+}
+.content_text p{
+	color: #626262;
+	font-size: 14px;
+	margin-top: 40px;
+}
+#button{
+	margin: 62px auto 47px;
+	display: block;
+	padding: 20px 49px;
+	background: #FFFFFF;
+	stroke-width: 1px;
+	stroke: #626262;
+	cursor: pointer;
+
+}
+#button:active{
+	background: #d7e8fb;
+}
